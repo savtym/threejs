@@ -12,7 +12,7 @@ function init() {
 	// create scene
 	scene = new THREE.Scene();
 
-	// create cube
+	// create figure
 	for (let i = 0; i < 5; i++) {
 		geometry = new THREE.BoxGeometry(Math.random(), Math.random(), Math.random());
 		material = new THREE.MeshNormalMaterial();
